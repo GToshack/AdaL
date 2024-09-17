@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(52, 59, 59);
+}
+
+.head {
+    width: 100vw;
+    height: 10vh;
+    word-spacing: 10vw;
+    text-align: center;
+    padding-top: 15px;
+    background-color: orange;
+    opacity: 0%;
+    transition: opacity 300ms;
+}
+
+.head:hover {
+    opacity: 100%;
+    transition: opacity 750ms;
+}
