@@ -11,6 +11,11 @@ body {
     background-color: orange;
     background-color: rgba(255, 255, 255, 0);
     transition: background-color 300ms;
+    
+    a:not(#Main) {
+        color: rgba(255, 255, 255, 0);
+        pointer-events: none;
+    }
 }
 
 .head > div {
@@ -19,11 +24,6 @@ body {
 
 #Main {
      border-bottom: solid 4px black;
-}
-
-a:not(#Main) {
-    opacity:0%;
-    pointer-events:none;
 }
 
 .head > div > a:link, a:visited {
