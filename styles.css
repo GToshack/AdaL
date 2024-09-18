@@ -5,15 +5,32 @@ body {
 .head {
     width: 100vw;
     height: 10vh;
-    word-spacing: 10vw;
     text-align: center;
-    padding-top: 15px;
+    font-size: 20px;
+    padding-top: 5vh;
     background-color: orange;
     opacity: 0%;
     transition: opacity 300ms;
 }
 
+#Home {
+  color: blue;
+}
+
 .head:hover {
     opacity: 100%;
     transition: opacity 750ms;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container > div {
+  text-align: center;
+}
+
+#b1 {
+  opacity: 0%;
 }
