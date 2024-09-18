@@ -15,8 +15,10 @@ body {
 
 .head > div {
     margin:auto;
-    border-bottom: solid 4px black;
-    
+}
+
+#Main {
+     border-bottom: solid 4px black;
 }
 
 .head > div > a:link, a:visited {
