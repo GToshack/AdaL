@@ -13,8 +13,10 @@ body {
     transition: background-color 300ms;
     
     .head > div:not(#Main) {
-        color: rgba(255, 255, 255, 0);
         pointer-events: none;
+        > a {
+            color: rgba(255, 255, 255, 0);
+        }
     }
 }
 
