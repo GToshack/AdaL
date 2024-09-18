@@ -39,6 +39,13 @@ body {
 .head:hover {
     background-color: rgba(255, 255, 255, 1);
     transition: background-color 750ms;
+
+    > div:not(#Main) {
+        pointer-events:all;
+        > a {
+            color: rgba(0, 0, 0, 1);
+        }
+    }
 }
 
 .grid-container {
