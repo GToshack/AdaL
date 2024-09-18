@@ -15,7 +15,7 @@ body {
 
 .head > div {
     margin:auto;
-    border-bottom: inset 5px black;
+    border-bottom: solid 4px black;
     
 }
 
