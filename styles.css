@@ -25,7 +25,7 @@ body {
 }
 
 #Main {
-     border-bottom: solid 4px black;
+    border-bottom: solid 4px black;
 }
 
 .head > div > a:link, a:visited {
@@ -52,12 +52,12 @@ body {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .grid-container > div {
-  text-align: center;
+    text-align: center;
 }
 
 h1 {
@@ -69,8 +69,11 @@ h2 {
     text-align: center;
 }
 
-.content > p {
-    margin-left: 1vw;
-    background-color:rgba(255, 180, 0, 0.05);
-    width: 50vw;
+.P2 {
+    .content > p {
+        margin-left: 1vw;
+        background-color:rgba(255, 180, 0, 0.05);
+        width: 50vw;
+    }
+
 }
