@@ -25,7 +25,7 @@ body {
 }
 
 #Main {
-    border-bottom: solid 4px black;
+    border-bottom: solid 3px black;
 }
 
 .head > div > a:link, a:visited {
@@ -42,7 +42,7 @@ body {
         pointer-events:all;
 
         .lnk:hover {
-                color: gray;
+                color: rgb(31, 31, 74);
             }
         a {
             color: black;
@@ -70,10 +70,18 @@ h2 {
 }
 
 .P2 {
+    h1 {
+        font-weight: normal; 
+    }
+    
+
     .content > p {
         margin-left: 1vw;
-        background-color:rgba(255, 180, 0, 0.05);
+        background-color:rgba(255, 255, 255, 0.6);
         width: 50vw;
+    }
+    a {
+        text-decoration: none;
     }
 
 }
